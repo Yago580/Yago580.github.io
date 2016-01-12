@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  /*border: 1px solid red;*/
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  
+  &:hover {
+    color: black;
+  }
+}
+
+.page-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  ul {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Inconsolata";
+    list-style-type: none;
+
+    li {
+      padding: 30px 0;
+      display: block;
+    }
+  }
+}
+
