@@ -19,4 +19,4 @@ github_username:  yago580
 # Build settings
 markdown: kramdown
 
-include: ['/images']
+include: ['/images, /js']
