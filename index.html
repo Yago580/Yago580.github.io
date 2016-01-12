@@ -4,12 +4,10 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-  <li class="post">
-    <h2 class="link">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        {{ post.title }}
-      </a>
-    </h2>
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      {{ post.title }}
+    </a>
   </li>
   {% endfor %}
 </ul>
